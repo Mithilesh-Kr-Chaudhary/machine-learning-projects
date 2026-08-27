@@ -31,3 +31,28 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Trained models and large outputs
+*.joblib
+*.pkl
+*.h5
+*.keras
+
+# Datasets (upload separately or use a download link)
+*.csv
+*.tsv
+SMSSpamCollection
+
+# Secrets
+.env
+*.key
